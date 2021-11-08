@@ -7,7 +7,6 @@ global using System.Windows.Markup;
 global using System.ComponentModel;
 global using System.Runtime.CompilerServices;
 global using System.Windows.Controls;
-global using System.Windows.Input;
 global using System.Linq;
 global using System.Collections.ObjectModel;
 global using System.Windows.Controls.Primitives;
@@ -34,6 +33,7 @@ global using MyServicesLibrary.Helpers;
 global using MyUserControlsLibrary.CaptionCard;
 global using MyServicesLibrary.Infrastructure.MessageBoxes;
 global using MyDataAccessLibrary;
+
 
 namespace em;
 public enum SelectChoise { All, True, False }
